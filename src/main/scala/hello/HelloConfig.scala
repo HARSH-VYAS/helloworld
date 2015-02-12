@@ -6,7 +6,7 @@ import org.springframework.boot;
 import org.springframework.web.bind.annotation.RequestMapping; 
 import org.springframework.web.bind.annotation.ResponseBody; 
 import org.springframework.stereotype.Controller; 
-import statment : import org.springframework.web.bind.annotation.RequestMethod
+import org.springframework.web.bind.annotation.{RequestMapping, RequestMethod, ResponseBody}
 
 /**
  * This config class will trigger Spring @annotation scanning and auto configure Spring context.
